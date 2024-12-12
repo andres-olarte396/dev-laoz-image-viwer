@@ -1,0 +1,80 @@
+/* Contenedor principal para el slider */
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+/* Slider y contenido del texto */
+#slider-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+/* Imagen del slider */
+#slider {
+    width: 50%;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Detalles (Título y Descripción) */
+#details {
+    width: 50%;
+    height: 94vh;
+    overflow-y: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Botones del slider */
+.slider-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+}
+
+/* Imagen del slider */
+#slider img {
+    width: 100%;
+    height: 85vh;
+    object-fit: fill;
+    /* Mantiene las proporciones y llena el contenedor */
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+.slider-button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    border: none;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+}

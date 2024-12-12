@@ -35,7 +35,7 @@ Este proyecto es un slider de imágenes dinámico construido con HTML, CSS y Jav
 
 ## 📂 Estructura del Proyecto
 
-plaintext
+```plaintext
 / 📂
 ├── 📃 index.html: El archivo principal que contiene la estructura HTML del slider.
 ├── 📃 style.css: Archivo CSS que contiene los estilos para el slider.
